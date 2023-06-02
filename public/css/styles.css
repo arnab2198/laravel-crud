@@ -1,0 +1,244 @@
+*,
+*::after,
+*::before {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    font-family: arial, sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+form,
+input,
+textarea {
+    width: 100% !important;
+    margin: 10px 0 !important;
+    resize: none !important;
+    margin: 5px 0 !important;
+}
+
+label {
+    font-size: 22px !important;
+}
+
+select {
+    width: 100% !important;
+    padding: 5px !important;
+    font-size: 22px !important;
+    margin-top: 10px !important;
+}
+
+textarea {
+    height: 180px !important;
+    min-height: 180px !important;
+    max-height: 180px !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    font-size: 18px !important;
+    padding: 8px !important;
+}
+
+input {
+    padding: 8px !important;
+    font-size: 24px !important;
+}
+
+.main-container {
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+.tableContainer {
+    padding: 20px !important;
+}
+
+.listTable {
+    font-family: arial, sans-serif !important;
+    border-collapse: collapse !important;
+    width: 100% !important;
+}
+
+td,
+th {
+    border: 1px solid #aeaeae !important;
+    padding: 12px !important;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd !important;
+}
+
+.totalTaskText {
+    font-size: 20px !important;
+    margin: 10px 0 !important;
+}
+
+.formContainer {
+    width: 500px !important;
+    margin: auto !important;
+    height: 90% !important;
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+}
+
+.submitBtn {
+    padding: 10px 24px !important;
+    font-size: 18px !important;
+    margin-top: 25px !important;
+}
+
+.listHeading {
+    margin-bottom: 20px !important;
+}
+
+.btnTextContainer {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.noDataFound {
+    text-align: center !important;
+}
+
+.tdNoData {
+    font-size: 24px !important;
+    padding: 100px !important;
+}
+
+.actionTd {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    padding: 10px !important;
+}
+
+.redirectLinks {
+    font-size: 22px !important;
+    color: #000 !important;
+}
+
+.formHead {
+    width: 100% !important;
+    margin-bottom: 30px !important;
+}
+
+.errorText {
+    width: 100% !important;
+    display: block !important;
+    margin: 5px 0 25px 0 !important;
+    color: red !important;
+}
+
+.successFlash {
+    height: 30px !important;
+    background: #53ba53 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 20px !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    border-radius: 22px !important;
+    margin-bottom: 30px !important;
+}
+
+.errorFlash {
+    height: 30px !important;
+    background: red !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 20px !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    border-radius: 22px !important;
+    margin-bottom: 30px !important;
+}
+
+.actionLink {
+    text-decoration: none !important;
+    color: #000 !important;
+    border: 1px solid #000 !important;
+    padding: 5px 10px !important;
+    transition: 300ms ease-in-out !important;
+    margin: 0 4px !important;
+}
+
+.actionLink:hover {
+    color: blue !important;
+    border: 1px solid blue !important;
+}
+
+.actionCol {
+    width: 300px !important;
+}
+
+.viewContainer {
+    display: flex !important;
+    height: 90% !important;
+    justify-content: center !important;
+    width: 70% !important;
+    margin: auto !important;
+    flex-direction: column !important;
+}
+
+.viewField {
+    display: inherit !important;
+    align-items: center !important;
+    margin: 12px 0 !important;
+}
+
+.textAns {
+    font-size: 22px !important;
+    margin-left: 20px !important;
+}
+
+.formAction {
+    display: inline !important;
+}
+
+#deleteBtn {
+    padding: 4px 8px !important;
+    background: transparent !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+}
+
+.gobackBtn {
+    text-align: right !important;
+    margin-bottom: 60px !important;
+}
+
+.paginationContainer {
+    margin-top: 20px !important;
+}
+
+.page-link {
+    padding: 4px 16px !important;
+}
+
+.navBar {
+    width: 100%;
+    height: 60px;
+    background: #9a9a9a;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menuList {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 21px;
+}
+
+.navAnchor {
+    text-decoration: none !important;
+}
